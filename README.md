@@ -52,7 +52,7 @@ We expect to have all files uploaded by Wednesday, February 8th. Please come bac
 In this version of the test, we mimic sUAS-A detecting a person by publishing the coordinates of the found person to MQTT as:
 (MESSAGE HERE). sUAS-B subscribes to this topic and self-adapts from `flying' state to 'circle' state around the coordinates.
 
-- Video [T3-Video][(https://youtu.be/MmwdYf4_4zw)]  (NOTE: Just a placeholder. I have to find all the right videos and upload!)
+- Video: [T3-Video](https://youtu.be/MmwdYf4_4zw)  (NOTE: Just a placeholder. I have to find all the right videos and upload!)
 - Flight Log
 - Mission Specification: [T3 Specification](mission-specs/mission_spec_t3.json)
 
