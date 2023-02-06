@@ -4,8 +4,8 @@ We expect to have all files uploaded by Wednesday, February 8th. Please come bac
 
 
 | Test         | Description     | Pattern | Triggering System | 
-|--------------|-----------|------------|------------|
-| [T1](README.md#t1) | Mission state transition during normal oper.   | [A](pattern.md#pa)        |sUAS (Auton. Pilot) |
+|:--------------:|-----------|:------------:|------------|
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [T1](README.md#t1) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Mission state transition during normal operation   |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [A](pattern.md#pa)      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  |sUAS (Auton. Pilot) &nbsp;&nbsp;&nbsp;&nbsp; |
 | [T2](README.md#t2) |sUAS-A detects and tracks a person | [A](pattern.md#pa)        |sUAS (Comp. Vision) |
 | [T3](README.md#t3) | sUAS-A detects and sUAS-B tracks person  | [B](pattern.md#pb)         |sUAS (Comp. Vision)|
 | [T4](README.md#t4) |sUAS misses heartbeat from GCS  | [A](pattern.md#pa)         |sUAS (Monitor) |
