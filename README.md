@@ -88,8 +88,10 @@ In this version of the test, we mimic sUAS-A detecting a person by publishing th
 
 <br>
 
-### :mag_right: T6: Air-leaser adapts to grid layout
+### :mag_right: T6: Air-leaser layout adaptation
+The air-leaser adapts its layout in several different ways. First, it can adapt between direct routing and grid-based routing. So far we have tested that in a low-fidelity simulator and not with the PX4 physics engine.  We do not report it here.  Second, it can adapt the spacing between sUAS according to weather, satellite availability, and/or sUAS health. We report two different experiments with the air leaser at vary separation distances.  
 <a name="t6"></a>
+#### Air-leaser test #1.
 - Video
 - Flight Log
 - Mission Specification: [T6 Specification - DroneA](mission-specs/mission_spec_t6A.json) &nbsp;&nbsp;&nbsp;&nbsp; [T6 Specification DroneB](mission-specs/mission_spec_t6B.json)
