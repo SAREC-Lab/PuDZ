@@ -91,7 +91,7 @@ In this version of the test, we mimic sUAS-A detecting a person by publishing th
 <a name="t6"></a>
 - Video
 - Flight Log
-- Mission Specification: [T6 Specification](mission-specs/mission_spec_t6.json)
+- Mission Specification: [T6 Specification - DroneA](mission-specs/mission_spec_t6A.json) &nbsp;&nbsp;&nbsp;&nbsp; [T6 Specification DroneB](mission-specs/mission_spec_t6B.json)
 
 
 <br>
