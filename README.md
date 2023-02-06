@@ -25,9 +25,9 @@ We expect to have all files uploaded by Wednesday, February 8th. Please come bac
 ### :mag_right: T1: Mission state transition during normal operations
 <a name="t1"></a>
 The test demonstrates a 'phased circle', meaning that the drone flies around a specified part of a circle. This test demonstrates transitions between many states including arming, takeoff, hover, fly-to-waypoints, phased-circle, land, and disarm.
-- Video: [](https://youtu.be/MmwdYf4_4zw)
-- Flight Log: [](https://logs.px4.io/plot_app?log=d5b39fa5-38e2-402b-87c5-f30f98087f2c)
-- Mission Specification: [T1 Specification](mission-specs/mission_spec_t1.json)
+- Video: [T1 Field test video](https://youtu.be/MmwdYf4_4zw)
+- Flight Log: [T1 Field test log](https://logs.px4.io/plot_app?log=d5b39fa5-38e2-402b-87c5-f30f98087f2c)
+- Mission Specification: [T1 JSON Specification](mission-specs/mission_spec_t1.json)
 
 <br>
 
