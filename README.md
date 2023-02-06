@@ -16,26 +16,19 @@ We expect to have all files uploaded by Wednesday, February 8th. Please come bac
 | [T9](README.md#t9) | Ill-formed mission detected. Mission aborted   | [C](pattern.md#pc)        |SoS Policy Manager  |
 | [T10](README.md#t10) | FAA Part 107 flight regulation violation  |[C](pattern.md#pc)       |Runtime Monitor |
 
-
-<br><br><br><br><br>
-
 ---
-
 
 ### :mag_right: T1: Mission state transition during normal operations
 <a name="t1"></a>
-The test demonstrates a 'phased circle', meaning that the drone flies around a specified part of a circle. This test demonstrates transitions between many states including arming, takeoff, hover, fly-to-waypoints, phased-circle, land, and disarm.
+The test validates that the sUAS is able to transition effectively through a series of states. This is an example of internal system self-adaptation. The sUAS uses an internal MQTT system to coordinate transitions through the mission states. In particular, it demonstrates a 'phased circle', meaning that the drone flies around a specified part of a circle (as developed to support an image collection project at high altitude and distance). This test demonstrates transitions between many states including arming, takeoff, hover, fly-to-waypoints, phased-circle, land, and disarm. 
 - Video: [T1 Field test video](https://youtu.be/MmwdYf4_4zw)
 - Flight Log: [T1 Field test log](https://logs.px4.io/plot_app?log=d5b39fa5-38e2-402b-87c5-f30f98087f2c)
 - Mission Specification: [T1 JSON Specification](mission-specs/mission_spec_t1.json)
 
-<br>
-
 --- 
 
-<br>
-
 ### :mag_right: T2: sUAS-A detects and tracks a person
+The test 
 <a name="t2"></a>
 - Video
 - Flight Log
