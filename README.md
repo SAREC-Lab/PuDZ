@@ -5,16 +5,16 @@ We expect to have all files uploaded by Wednesday, February 8th. Please come bac
 
 | Test         | Description     | Pattern | Triggering System | 
 |--------------|-----------|------------|------------|
-| [T1](README.md#t1) | Mission state transition during normal oper.   | A       |sUAS (Auton. Pilot) |
-| [T2](README.md#t2) |sUAS-A detects and tracks a person | A       |sUAS (Comp. Vision) |
-| [T3](README.md#t3) | sUAS-A detects and sUAS-B tracks person  | B       |sUAS (Comp. Vision)|
-| [T4](README.md#t4) |sUAS misses heartbeat from GCS  | A       |sUAS (Monitor) |
-| [T5](README.md#t5) | Bad weather triggers adaptation of EDS  | C       |EDS (Weather) |
-| [T6](README.md#t6) | Air-leaser adapts to grid layout   | C       |Air-Leaser |
-| [T7](README.md#t7) |Compass interference onboard sUAS   | C       |sUAS (Analytics) |
-| [T8](README.md#t8) |Human requests extended PuDZ Boundaries | C       |EDS (boundaries)|
-| [T9](README.md#t9) | Ill-formed mission detected. Mission aborted   | C       |SoS Policy Manager  |
-| [T10](README.md#t10) | FAA Part 107 flight regulation violation  |C       |Runtime Monitor |
+| [T1](README.md#t1) | Mission state transition during normal oper.   | [A](pattern.md#pa)        |sUAS (Auton. Pilot) |
+| [T2](README.md#t2) |sUAS-A detects and tracks a person | [A](pattern.md#pa)        |sUAS (Comp. Vision) |
+| [T3](README.md#t3) | sUAS-A detects and sUAS-B tracks person  | [B](pattern.md#pb)         |sUAS (Comp. Vision)|
+| [T4](README.md#t4) |sUAS misses heartbeat from GCS  | [A](pattern.md#pa)         |sUAS (Monitor) |
+| [T5](README.md#t5) | Bad weather triggers adaptation of EDS  | [C](pattern.md#pc)         |EDS (Weather) |
+| [T6](README.md#t6) | Air-leaser adapts to grid layout   | [C](pattern.md#pc)        |Air-Leaser |
+| [T7](README.md#t7) |Compass interference onboard sUAS   | [C](pattern.md#pc)       |sUAS (Analytics) |
+| [T8](README.md#t8) |Human requests extended PuDZ Boundaries | [C](pattern.md#pc)       |EDS (boundaries)|
+| [T9](README.md#t9) | Ill-formed mission detected. Mission aborted   | [C](pattern.md#pc)        |SoS Policy Manager  |
+| [T10](README.md#t10) | FAA Part 107 flight regulation violation  |[C](pattern.md#pc)       |Runtime Monitor |
 
 
 <br><br><br><br><br>
