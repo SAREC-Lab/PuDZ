@@ -28,9 +28,10 @@ The test validates that the sUAS is able to transition effectively through a ser
 --- 
 
 ### :mag_right: T2: sUAS-A detects and tracks a person
+<img align="right" width="200" src="https://github.com/SAREC-Lab/PuDZ/blob/main/images/T2-Picture.PNG">
 The test validates that the sUAS can transition states from 'search' to 'survey' when the onboard computer vision pipeline detects a person. One the person is detected, the sUAS computes the persons geolocation and circles around them. We are still working on accurate geolocation and have a solution ready to test once weather becomes warm.  In this video, the adaptations work as intended.
 <a name="t2"></a>
-<img align="right" width="200" src="https://github.com/SAREC-Lab/PuDZ/blob/main/images/T2-Picture.PNG">
+
 - Video: [T2 Field test video](https://youtu.be/FCtVVyNWe7c)
 - Flight Log: [T2 Field test flight log](https://logs.px4.io/plot_app?log=c10160a1-68fc-4d05-a122-413930471b41)
 - Mission Specification: [T2 Specification](mission-specs/mission_spec_t2.json)
