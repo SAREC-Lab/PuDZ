@@ -3,8 +3,17 @@
 We expect to have all files uploaded by Wednesday, February 8th. Please come back in a couple of days. 
 
 
+| Test         | Description     | Pattern | Triggering System | 
+|--------------|-----------|------------|------------|
+| [T1](README.md#t1) | Mission state transition during normal oper.   | A       |sUAS (Auton. Pilot) |
+
+
+
+
+
 
 ### T1 Mission state transition during normal operations
+<a name="t1"></a>
 - Video
 - Flight Log
 - Mission Specification
