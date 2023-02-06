@@ -20,21 +20,22 @@ We expect to have all files uploaded by Wednesday, February 8th. Please come bac
 
 
 
-### T1 Mission state transition during normal operations
+### :mag_right: T1 Mission state transition during normal operations
 <a name="t1"></a>
 - Video
 - Flight Log
 - Mission Specification
 
-### T2 sUAS-A detects and tracks a person
+### :mag_right: T2 sUAS-A detects and tracks a person
+<a name="t2"></a>
 - Video
 - Flight Log
 - Mission Specification
 
 ---
 
-### T3: sUAS-A detects and sUAS-B tracks person
-
+### :mag_right: T3: sUAS-A detects and sUAS-B tracks person
+<a name="t3"></a>
 <img align="right" width="200" src="https://github.com/SAREC-Lab/PuDZ/blob/main/images/test1.PNG">
 In this version of the test, we mimic sUAS-A detecting a person by publishing the coordinates of the found person to MQTT as:
 (MESSAGE HERE). sUAS-B subscribes to this topic and self-adapts from `flying' state to 'circle' state around the coordinates.
@@ -45,37 +46,44 @@ In this version of the test, we mimic sUAS-A detecting a person by publishing th
 
 ---
 
-### T4 sUAS misses heartbeat from GCS
+### :mag_right: T4 sUAS misses heartbeat from GCS
+<a name="t4"></a>
 - Video
 - Flight Log
 - Mission Specification
 
-### T5 Bad weather triggers adaptation of the Environmental Digital Shadow (EDS)
+### :mag_right: T5 Bad weather triggers adaptation of the Environmental Digital Shadow (EDS)
+<a name="t5"></a>
 - Video
 - Flight Log
 - Mission Specification
 
-### T6 Air-leaser adapts to grid layout
+### :mag_right: T6 Air-leaser adapts to grid layout
+<a name="t6"></a>
 - Video
 - Flight Log
 - Mission Specification
 
-### T7 Compass interference onboard sUAS
+### :mag_right: T7 Compass interference onboard sUAS
+<a name="t7"></a>
 - Video
 - Flight Log
 - Mission Specification
 
-### T8 Human requests extended PuDZ Boundaries
+### :mag_right: T8 Human requests extended PuDZ Boundaries
+<a name="t8"></a>
 - Video
 - Flight Log
 - Mission Specification
 
-### T9 Ill-formed mission detected
+### :mag_right: T9 Ill-formed mission detected
+<a name="t9"></a>
 - Video
 - Flight Log
 - Mission Specification
 
-### T10 FAA Part 107 flight regulation violation
+### :mag_right: T10 FAA Part 107 flight regulation violation
+<a name="t10"></a>
 - Video
 - Flight Log
 - Mission Specification
