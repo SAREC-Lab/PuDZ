@@ -17,7 +17,9 @@ We expect to have all files uploaded by Wednesday, February 8th. Please come bac
 | [T10](README.md#t10) | FAA Part 107 flight regulation violation  |C       |Runtime Monitor |
 
 
+<br><br><br><br><br>
 
+---
 
 
 ### :mag_right: T1 Mission state transition during normal operations
@@ -26,13 +28,23 @@ We expect to have all files uploaded by Wednesday, February 8th. Please come bac
 - Flight Log
 - Mission Specification
 
+<br>
+
+--- 
+
+<br>
+
 ### :mag_right: T2 sUAS-A detects and tracks a person
 <a name="t2"></a>
 - Video
 - Flight Log
-- Mission Specification
+- Mission Specification: [T2 Specification](mission-specs/mission_spec_t2.json)
 
----
+<br>
+
+--- 
+
+<br>
 
 ### :mag_right: T3: sUAS-A detects and sUAS-B tracks person
 <a name="t3"></a>
@@ -44,7 +56,11 @@ In this version of the test, we mimic sUAS-A detecting a person by publishing th
 - Flight Log
 - Mission Specification
 
----
+<br>
+
+--- 
+
+<br>
 
 ### :mag_right: T4 sUAS misses heartbeat from GCS
 <a name="t4"></a>
@@ -52,11 +68,25 @@ In this version of the test, we mimic sUAS-A detecting a person by publishing th
 - Flight Log
 - Mission Specification
 
+
+<br>
+
+--- 
+
+<br>
+
 ### :mag_right: T5 Bad weather triggers adaptation of the Environmental Digital Shadow (EDS)
 <a name="t5"></a>
 - Video
 - Flight Log
 - Mission Specification
+
+
+<br>
+
+--- 
+
+<br>
 
 ### :mag_right: T6 Air-leaser adapts to grid layout
 <a name="t6"></a>
@@ -64,11 +94,26 @@ In this version of the test, we mimic sUAS-A detecting a person by publishing th
 - Flight Log
 - Mission Specification
 
+
+<br>
+
+--- 
+
+<br>
+
 ### :mag_right: T7 Compass interference onboard sUAS
 <a name="t7"></a>
 - Video
 - Flight Log
 - Mission Specification
+
+
+<br>
+
+--- 
+
+<br>
+
 
 ### :mag_right: T8 Human requests extended PuDZ Boundaries
 <a name="t8"></a>
@@ -76,11 +121,26 @@ In this version of the test, we mimic sUAS-A detecting a person by publishing th
 - Flight Log
 - Mission Specification
 
+
+<br>
+
+--- 
+
+<br>
+
+
 ### :mag_right: T9 Ill-formed mission detected
 <a name="t9"></a>
 - Video
 - Flight Log
 - Mission Specification
+
+<br>
+
+--- 
+
+<br>
+
 
 ### :mag_right: T10 FAA Part 107 flight regulation violation
 <a name="t10"></a>
@@ -88,4 +148,5 @@ In this version of the test, we mimic sUAS-A detecting a person by publishing th
 - Flight Log
 - Mission Specification
 
+---
 
