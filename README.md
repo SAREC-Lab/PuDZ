@@ -26,7 +26,7 @@ We expect to have all files uploaded by Wednesday, February 8th. Please come bac
 <a name="t1"></a>
 - Video
 - Flight Log
-- Mission Specification
+- Mission Specification: [T1 Specification](mission-specs/mission_spec_t1.json)
 
 <br>
 
@@ -54,7 +54,7 @@ In this version of the test, we mimic sUAS-A detecting a person by publishing th
 
 - Video [T3-Video][(https://youtu.be/MmwdYf4_4zw)]  (NOTE: Just a placeholder. I have to find all the right videos and upload!)
 - Flight Log
-- Mission Specification
+- Mission Specification: [T3 Specification](mission-specs/mission_spec_t3.json)
 
 <br>
 
@@ -66,8 +66,7 @@ In this version of the test, we mimic sUAS-A detecting a person by publishing th
 <a name="t4"></a>
 - Video
 - Flight Log
-- Mission Specification
-
+- Mission Specification: [T4 Specification](mission-specs/mission_spec_t4.json)
 
 <br>
 
@@ -79,7 +78,7 @@ In this version of the test, we mimic sUAS-A detecting a person by publishing th
 <a name="t5"></a>
 - Video
 - Flight Log
-- Mission Specification
+- Mission Specification: [T5 Specification](mission-specs/mission_spec_t5.json)
 
 
 <br>
@@ -92,7 +91,7 @@ In this version of the test, we mimic sUAS-A detecting a person by publishing th
 <a name="t6"></a>
 - Video
 - Flight Log
-- Mission Specification
+- Mission Specification: [T6 Specification](mission-specs/mission_spec_t6.json)
 
 
 <br>
@@ -105,7 +104,7 @@ In this version of the test, we mimic sUAS-A detecting a person by publishing th
 <a name="t7"></a>
 - Video
 - Flight Log
-- Mission Specification
+- Mission Specification: [T7 Specification](mission-specs/mission_spec_t7.json)
 
 
 <br>
@@ -119,7 +118,7 @@ In this version of the test, we mimic sUAS-A detecting a person by publishing th
 <a name="t8"></a>
 - Video
 - Flight Log
-- Mission Specification
+- Mission Specification: [T8 Specification](mission-specs/mission_spec_t8.json)
 
 
 <br>
@@ -133,7 +132,7 @@ In this version of the test, we mimic sUAS-A detecting a person by publishing th
 <a name="t9"></a>
 - Video
 - Flight Log
-- Mission Specification
+- Mission Specification: [T9 Specification](mission-specs/mission_spec_t9.json)
 
 <br>
 
@@ -146,7 +145,7 @@ In this version of the test, we mimic sUAS-A detecting a person by publishing th
 <a name="t10"></a>
 - Video
 - Flight Log
-- Mission Specification
+- Mission Specification: [T10 Specification](mission-specs/mission_spec_t10.json)
 
 ---
 
