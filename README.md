@@ -1,5 +1,7 @@
 # Tests and Results for PuDZ SoS  
 
+The use of small autonomous Uncrewed Aerial Systems (sUAS) for Emergency Response requires rapid deployments into shared operational environments which we refer to as ``Pop-up Drone Zones'' (PuDZ). PuDZ represents a System of Systems (SoS), in which individual systems provide services such as air traffic control, environmental modeling, and support for sUAS autonomy. Each system needs the ability to configure itself dynamically at the start of the mission, and self-adapt throughout the mission in response to environmental changes, emergent problems, and changes in the overall mission status. Each system is self-managed, using its own local MAPE-K loop, and can, therefore, adapt independently; however, adaptations in one system can have a trickle-over effect to other systems. The tests reported on this page were used to illustrate and validate various cross-system self-adaptation scenarios with physical and/or simulated sUAS. 
+
 | Test         | Description     | Pattern | Triggering System | 
 |:--------------:|-----------|:------------:|------------|
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [T1](README.md#t1) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Mission state transition during normal operation   |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [A](pattern.md#pa)      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  |sUAS (Auton. Pilot) &nbsp;&nbsp;&nbsp;&nbsp; |
