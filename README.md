@@ -85,13 +85,7 @@ The air-leaser adapts its layout due to high congestion. We have tested this in 
 - Flight Log
 - Mission Specification: [T7 Specification](mission-specs/mission_spec_t7.json)
 
-
-<br>
-
 --- 
-
-<br>
-
 
 ### :mag_right: T8: Human requests extended PuDZ Boundaries
 <a name="t8"></a>
@@ -99,13 +93,7 @@ The air-leaser adapts its layout due to high congestion. We have tested this in 
 - Flight Log
 - Mission Specification: [T8 Specification](mission-specs/mission_spec_t8.json)
 
-
-<br>
-
 --- 
-
-<br>
-
 
 ### :mag_right: T9: Ill-formed mission detected
 <a name="t9"></a>
@@ -113,12 +101,7 @@ The air-leaser adapts its layout due to high congestion. We have tested this in 
 - Flight Log
 - Mission Specification: [T9 Specification](mission-specs/mission_spec_t9.json)
 
-<br>
-
 --- 
-
-<br>
-
 
 ### :mag_right: T10: FAA Part 107 flight regulation violation
 <a name="t10"></a>
