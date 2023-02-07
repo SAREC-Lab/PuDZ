@@ -113,10 +113,17 @@ The air-leaser adapts its layout due to high congestion. We have tested this in 
 --- 
 
 <img align="right" width="350" src ="https://github.com/SAREC-Lab/PuDZ/blob/main/images/realtime.png">
+<a name="t7"></a>
 
 ### :mag_right: T7: Compass interference onboard sUAS
-Onboard anomaly detection was tested for vibration with the high-fidelity Gazebo simulator. We demonstrated that it could be detected in real-time and lead to adaptations e.g., reduce throttle, LOITER, LAND. Currently being ported to physical sUAS. <BR> <BR> Onboard anomaly detection courtesy of Md Nafee Al Islam.<BR>
-<a name="t7"></a>
+
+<p align="justify">
+
+Onboard anomaly detection was tested for vibration with the high-fidelity Gazebo simulator. We demonstrated that it could be detected in real-time and lead to adaptations e.g., reduce throttle, LOITER, LAND. Currently being ported to physical sUAS. <BR> <BR> Onboard anomaly detection courtesy of Md Nafee Al Islam. 
+  </p>
+  
+  <br>
+
 
 --- 
 
