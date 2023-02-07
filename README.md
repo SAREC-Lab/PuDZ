@@ -108,11 +108,11 @@ The air-leaser adapts its layout due to high congestion. We have tested this in 
 
 --- 
 
-### :mag_right: T7: Compass interference onboard sUAS
-Onboard anomaly detection was tested for vibration with the high-fidelity Gazebo simulator. We demonstrated that it could be detected in real-time and lead to adaptations e.g., reduce throttle, LOITER, LAND.
-<a name="t7"></a>
 <img align="right" width="350" src ="https://github.com/SAREC-Lab/PuDZ/blob/main/images/realtime.png">
 
+### :mag_right: T7: Compass interference onboard sUAS
+Onboard anomaly detection was tested for vibration with the high-fidelity Gazebo simulator. We demonstrated that it could be detected in real-time and lead to adaptations e.g., reduce throttle, LOITER, LAND. Currently being ported to physical sUAS. <BR> <BR> Onboard anomaly detection courtesy of Nafee Al Islam. <BR>
+<a name="t7"></a>
 
 --- 
 
@@ -135,7 +135,6 @@ Onboard anomaly detection was tested for vibration with the high-fidelity Gazebo
 <a name="t10"></a>
 ### :mag_right: T10: sUAS hits geofence and flies off course at high altitude
 <img align="right" width="200" src="https://github.com/SAREC-Lab/PuDZ/blob/main/images/highflight.png">
-
 <p align="justify">
 This `test' was accidental. It was the result of several compounding errors and has been officially reported to the NASA sUAS incident service due to the high altitudes (over 400ft AGL). We had set up a geofence, but for some reason the geofence action was re-set to 'no action'. When the sUAS hit the geofence, it transitioned to STABILIZED mode and control was ceded from the onboard autopilot to the RPIC (human pilot). The throttle was very slightly above neutral. Therefore, the sUAS started ascending and flew in the direction of the pervading wind. Retroactively we are developing a monitor to check for excessive altitude and adapt behavior to RTL.
 </p>
