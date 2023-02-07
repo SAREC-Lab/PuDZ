@@ -20,7 +20,10 @@
 ### :mag_right: T1: Mission state transition during normal operations
 <a name="t1"></a>
 <img align="right" width="200" src="https://github.com/SAREC-Lab/PuDZ/blob/main/images/PhasedCircle.PNG">
+<p align="justify">
 The test validates that the sUAS is able to transition effectively through a series of states. This is an example of internal system self-adaptation. The sUAS uses an internal MQTT system to coordinate transitions through the mission states. In particular, it demonstrates a 'phased circle', meaning that the drone flies around a specified part of a circle (as developed to support an image collection project at high altitude and distance). This test demonstrates transitions between many states including arming, takeoff, hover, fly-to-waypoints, phased-circle, land, and disarm. 
+  </p>
+  
 - Video: [T1 Field test video](https://youtu.be/MmwdYf4_4zw)
 - Flight Log: [T1 Field test flight log](https://logs.px4.io/plot_app?log=d5b39fa5-38e2-402b-87c5-f30f98087f2c)
 - Mission Specification: [T1 JSON Specification](mission-specs/mission_spec_T1.json)
@@ -29,20 +32,24 @@ The test validates that the sUAS is able to transition effectively through a ser
 
 ### :mag_right: T2: sUAS-A detects and tracks a person
 <img align="right" width="200" src="https://github.com/SAREC-Lab/PuDZ/blob/main/images/T2-Picture.PNG">
-The test validates that the sUAS can transition states from 'search' to 'survey' when the onboard computer vision pipeline detects a person. One the person is detected, the sUAS computes the persons geolocation and circles around them. We are still working on accurate geolocation and have a solution ready to test once weather becomes warm.  In this video, the adaptations work as intended.
 <a name="t2"></a>
+<p align="justify">
+The test validates that the sUAS can transition states from 'search' to 'survey' when the onboard computer vision pipeline detects a person. One the person is detected, the sUAS computes the persons geolocation and circles around them. We are still working on accurate geolocation and have a solution ready to test once weather becomes warm.  In this video, the adaptations work as intended.
+ </p>
 
 - Video: [T2 Field test video](https://youtu.be/FCtVVyNWe7c)
 - Flight Log: [T2 Field test flight log](https://logs.px4.io/plot_app?log=c10160a1-68fc-4d05-a122-413930471b41)
-- Mission Specification: [T2 Specification](mission-specs/mission_spec_T2.json)
+- Mission Specification: [T2 JSON Specification](mission-specs/mission_spec_T2.json)
 
 --- 
 
 ### :mag_right: T3: sUAS-A detects and sUAS-B tracks person
 <a name="t3"></a>
 <img align="right" width="200" src="https://github.com/SAREC-Lab/PuDZ/blob/main/images/test1.PNG">
+<p align="justify">
 In this version of the test, we mimic sUAS-A detecting a person by publishing the coordinates of the found person to MQTT as:
 (MESSAGE HERE). sUAS-B subscribes to this topic and self-adapts from `flying' state to 'circle' state around the coordinates.
+</p>
 
 - Video: [T3-Video](https://youtu.be/MmwdYf4_4zw)  
 - Flight Log
@@ -51,17 +58,22 @@ In this version of the test, we mimic sUAS-A detecting a person by publishing th
 --- 
 
 ### :mag_right: T4: sUAS misses heartbeat from GCS
+<p align="justify">
 In this test, we added a new failsafe state (not shown in the JSON file as it is a default state for all states and therefore doesn't need to be specified by the user). When the heartbeat is lost then the drone transitions into heartbeat hover, and eventually if the heartbeat is not restored, it transitions into RTL.
+ </p>
 <a name="t4"></a>
 - Video [T4-Video](https://youtu.be/JwX7aYFQkjA)
 - Flight Log (Test executed correctly, but in this version it introduced a strange character into the flight log making it unreadable. New version is lined up for testing in the Spring).
-- Mission Specification: [T4 Specification](mission-specs/mission_spec_t4.json)
+- Mission Specification: [T4 JSON Specification](mission-specs/mission_spec_t4.json)
 
 --- 
 
 ### :mag_right: T5: EDS and Air-Leaser adapt due to high winds
-In this test we mimic the adaptation of the EDS due to high winds. We publish a high-wind alert, and the air-leaser adapts by increasing the separation distances between sUAS. 
 <a name="t5"></a>
+<p align="justify">
+In this test we mimic the adaptation of the EDS due to high winds. We publish a high-wind alert, and the air-leaser adapts by increasing the separation distances between sUAS. 
+ </p>
+
 
 #### Air-leaser
 - Video [T5-Video](https://youtu.be/-BxXdtNNgw0) (Two sUAS flight, but no videos available of the air-leaser tests below.)
@@ -69,8 +81,8 @@ In this test we mimic the adaptation of the EDS due to high winds. We publish a 
 #### Air-leaser Basic test #1
 Drones fly to opposite ends of the runway, hover for 20 seconds, and then request air-space to fly near to the current location of the other drone. The expected outcome is that drones should deadlock and be stuck in hover. Both drones should continue requesting an air lease from the ground service and continue to be denied indefinitely until pilot takes over.
 - Mission Specification: 
-  - [Drone-A](https://github.com/SAREC-Lab/PuDZ/blob/main/mission-specs/mission_spec_T6a.json)
-  - [Drone-B](https://github.com/SAREC-Lab/PuDZ/blob/main/mission-specs/mission_spec_T6b.json)
+  - [Drone-A JSON Specification](https://github.com/SAREC-Lab/PuDZ/blob/main/mission-specs/mission_spec_T6a.json)
+  - [Drone-B JSON Specification](https://github.com/SAREC-Lab/PuDZ/blob/main/mission-specs/mission_spec_T6b.json)
 
 #### Air-leaser test #2.
 Four drones are lined up South of the runway approximately 15-20 meters apart.  Each one is given a flight plan to take-off, fly south to a waypoint, hover for 20 seconds, and return home.  We expect to see all drones take off sequentially as they request leases, since they are positioned at spots greater than 21 meters.  If there is an airlease error, they will not all take off.  By progressively adapting the air-leaser's spacing plan, different outcomes are observed in terms of which sUAS take off in which order.
