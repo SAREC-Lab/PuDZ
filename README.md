@@ -8,7 +8,7 @@
 | [T2](README.md#t2) |sUAS-A detects and tracks a person | [A](pattern.md#pa)        |sUAS (Comp. Vision) |
 | [T3](README.md#t3) | sUAS-A detects and sUAS-B tracks person  | [B](pattern.md#pb)         |sUAS (Comp. Vision)|
 | [T4](README.md#t4) |sUAS misses heartbeat from GCS  | [A](pattern.md#pa)         |sUAS (Monitor) |
-| [T5](README.md#t5) | Bad weather triggers adaptation of EDS  | [C](pattern.md#pc)         |EDS (Weather) |
+| [T5](README.md#t5) | EDS and Air-Leaser adapt due to high winds  | [C](pattern.md#pc)         |EDS (Weather) |
 | [T6](README.md#t6) | Air-leaser adapts to grid layout   | [C](pattern.md#pc)        |Air-Leaser |
 | [T7](README.md#t7) |Compass interference onboard sUAS   | [C](pattern.md#pc)       |sUAS (Analytics) |
 | [T8](README.md#t8) |Human requests extended PuDZ Boundaries | [C](pattern.md#pc)       |EDS (boundaries)|
