@@ -111,6 +111,7 @@ The air-leaser adapts its layout due to high congestion. We have tested this in 
 --- 
 
 ### :mag_right: T10: sUAS hits geofence and flies off course at high altitude
+<img align="right" width="200" src="https://github.com/SAREC-Lab/PuDZ/blob/main/images/highflight.png">
 This `test' was accidental. It was the result of several compounding errors and has been officially reported to the NASA sUAS incident service due to the high altitudes (over 400ft AGL). We had set up a geofence, but for some reason the geofence action was re-set to 'no action'. When the sUAS hit the geofence, it transitioned to STABILIZED mode and control was ceded from the onboard autopilot to the RPIC (human pilot). The throttle was very slightly above neutral. Therefore, the sUAS started ascending and flew in the direction of the pervading wind. Retroactively we are developing a monitor to check for excessive altitude and adapt behavior to RTL.
 <a name="t10"></a>
 - Video 
