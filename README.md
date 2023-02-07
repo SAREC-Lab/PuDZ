@@ -117,18 +117,14 @@ Onboard anomaly detection was tested for vibration with the high-fidelity Gazebo
 --- 
 
 ### :mag_right: T8: Human requests extended PuDZ Boundaries
+(To do: upload screen shot)
 <a name="t8"></a>
-- Video:
-- Flight Log:
-- Mission Specification: [T8 Specification](mission-specs/mission_spec_T8.json)
 
 --- 
 
 ### :mag_right: T9: Ill-formed mission detected
+(To do: upload screen shot)
 <a name="t9"></a>
-- Video:
-- Flight Log:
-- Mission Specification: [T9 Specification](mission-specs/mission_spec_T9.json)
 
 --- 
 
