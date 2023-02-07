@@ -63,15 +63,18 @@ In this test, we added a new failsafe state (not shown in the JSON file as it is
 In this test we mimic the adaptation of the EDS due to high winds. We publish a high-wind alert, and the air-leaser adapts by increasing the separation distances between sUAS. 
 <a name="t5"></a>
 
-#### Air-leaser test #1.
-- Video [T5-Video](https://youtu.be/-BxXdtNNgw0) (Video not exact match for specification)
+#### Air-leaser
+- Video [T5-Video](https://youtu.be/-BxXdtNNgw0) (Two sUAS flight, but no videos available of the air-leaser tests below.)
 
-#### Air-leaser test #1.
+#### Air-leaser Basic test #1
+Drones fly to opposite ends of the runway, hover for 20 seconds, and then request air-space to fly near to the current location of the other drone. The expected outcome is that drones should deadlock and be stuck in hover. Both drones should continue requesting an air lease from the ground service and continue to be denied indefinitely until pilot takes over.
 - Mission Specification: 
   - [Drone-A](https://github.com/SAREC-Lab/PuDZ/blob/main/mission-specs/mission_spec_T6a.json)
   - [Drone-B](https://github.com/SAREC-Lab/PuDZ/blob/main/mission-specs/mission_spec_T6b.json)
 
 #### Air-leaser test #2.
+Four drones are lined up South of the runway approximately 15-20 meters apart.  Each one is given a flight plan to take-off, fly south to a waypoint, hover for 20 seconds, and return home.  We expect to see all drones take off sequentially as they request leases, since they are positioned at spots greater than 21 meters.  If there is an airlease error, they will not all take off.  By progressively adapting the air-leaser's spacing plan, different outcomes are observed in terms of which sUAS take off in which order.
+
 - Mission Specification: 
   - [Drone-RED](https://github.com/SAREC-Lab/PuDZ/blob/main/mission-specs/mission_spec_T6_RED.json)
   - [Drone-BLUE](https://github.com/SAREC-Lab/PuDZ/blob/main/mission-specs/mission_spec_T6_BLUE.json)
