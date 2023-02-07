@@ -44,16 +44,17 @@ The test validates that the sUAS can transition states from 'search' to 'survey'
 In this version of the test, we mimic sUAS-A detecting a person by publishing the coordinates of the found person to MQTT as:
 (MESSAGE HERE). sUAS-B subscribes to this topic and self-adapts from `flying' state to 'circle' state around the coordinates.
 
-- Video: [T3-Video](https://youtu.be/MmwdYf4_4zw)  (NOTE: Just a placeholder. I have to find all the right videos and upload!)
+- Video: [T3-Video](https://youtu.be/MmwdYf4_4zw)  
 - Flight Log
 - Mission Specification: [T3 Specification](mission-specs/mission_spec_t3.json)
 
 --- 
 
 ### :mag_right: T4: sUAS misses heartbeat from GCS
+In this test, we added a new failsafe state (not shown in the JSON file as it is a default state for all states and therefore doesn't need to be specified by the user). When the heartbeat is lost then the drone transitions into heartbeat hover, and eventually if the heartbeat is not restored, it transitions into RTL.
 <a name="t4"></a>
-- Video
-- Flight Log
+- Video [T4-Video](https://youtu.be/JwX7aYFQkjA)
+- Flight Log (Test executed correctly, but in this version it introduced a strange character into the flight log making it unreadable. New version is lined up for testing in the Spring).
 - Mission Specification: [T4 Specification](mission-specs/mission_spec_t4.json)
 
 --- 
