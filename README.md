@@ -63,8 +63,8 @@ In this test, we added a new failsafe state (not shown in the JSON file as it is
  </p>
  
 
-- Video [T4-Video](https://youtu.be/JwX7aYFQkjA)
-- Flight Log (Test executed correctly, but in this version it introduced a strange character into the flight log making it unreadable. New version is lined up for testing in the Spring).
+- Video: [T4-Video](https://youtu.be/JwX7aYFQkjA)
+- Flight Log: (Test executed correctly, but in this version it introduced a strange character into the flight log making it unreadable. New version is lined up for testing in the Spring).
 - Mission Specification: [T4 JSON Specification](mission-specs/mission_spec_t4.json)
 
 --- 
@@ -77,7 +77,7 @@ In this test we mimic the adaptation of the EDS due to high winds. We publish a 
 
 
 #### Air-leaser
-- Video [T5-Video](https://youtu.be/-BxXdtNNgw0) (Two sUAS flight, but no videos available of the air-leaser tests below.)
+- Video: [T5-Video](https://youtu.be/-BxXdtNNgw0) (Two sUAS flight, but no videos available of the air-leaser tests below.)
 
 #### Air-Leaser Basic Test #1
 
@@ -110,24 +110,24 @@ The air-leaser adapts its layout due to high congestion. We have tested this in 
 
 ### :mag_right: T7: Compass interference onboard sUAS
 <a name="t7"></a>
-- Video
-- Flight Log
+- Video:
+- Flight Log:
 - Mission Specification: [T7 Specification](mission-specs/mission_spec_T7.json)
 
 --- 
 
 ### :mag_right: T8: Human requests extended PuDZ Boundaries
 <a name="t8"></a>
-- Video
-- Flight Log
+- Video:
+- Flight Log:
 - Mission Specification: [T8 Specification](mission-specs/mission_spec_T8.json)
 
 --- 
 
 ### :mag_right: T9: Ill-formed mission detected
 <a name="t9"></a>
-- Video
-- Flight Log
+- Video:
+- Flight Log:
 - Mission Specification: [T9 Specification](mission-specs/mission_spec_T9.json)
 
 --- 
@@ -140,8 +140,8 @@ The air-leaser adapts its layout due to high congestion. We have tested this in 
 This `test' was accidental. It was the result of several compounding errors and has been officially reported to the NASA sUAS incident service due to the high altitudes (over 400ft AGL). We had set up a geofence, but for some reason the geofence action was re-set to 'no action'. When the sUAS hit the geofence, it transitioned to STABILIZED mode and control was ceded from the onboard autopilot to the RPIC (human pilot). The throttle was very slightly above neutral. Therefore, the sUAS started ascending and flew in the direction of the pervading wind. Retroactively we are developing a monitor to check for excessive altitude and adapt behavior to RTL.
 </p>
 
-- Video 
-- Flight Log [T10-Flight Log](https://logs.px4.io/plot_app?log=7c381b16-a107-4268-9a9c-bfbb3b1575ae)
+- Video: 
+- Flight Log: [T10-Flight Log](https://logs.px4.io/plot_app?log=7c381b16-a107-4268-9a9c-bfbb3b1575ae)
 - Mission Specification: [T10 Specification](mission-specs/mission_spec_T10.json)
 
 ---
