@@ -56,12 +56,13 @@ In this version of the test, we mimic sUAS-A detecting a person by publishing th
 - Mission Specification: [T3 Specification](mission-specs/mission_spec_t3.json)
 
 --- 
-
+<a name="t4"></a>
 ### :mag_right: T4: sUAS misses heartbeat from GCS
 <p align="justify">
 In this test, we added a new failsafe state (not shown in the JSON file as it is a default state for all states and therefore doesn't need to be specified by the user). When the heartbeat is lost then the drone transitions into heartbeat hover, and eventually if the heartbeat is not restored, it transitions into RTL.
  </p>
-<a name="t4"></a>
+ 
+
 - Video [T4-Video](https://youtu.be/JwX7aYFQkjA)
 - Flight Log (Test executed correctly, but in this version it introduced a strange character into the flight log making it unreadable. New version is lined up for testing in the Spring).
 - Mission Specification: [T4 JSON Specification](mission-specs/mission_spec_t4.json)
@@ -78,15 +79,21 @@ In this test we mimic the adaptation of the EDS due to high winds. We publish a 
 #### Air-leaser
 - Video [T5-Video](https://youtu.be/-BxXdtNNgw0) (Two sUAS flight, but no videos available of the air-leaser tests below.)
 
-#### Air-leaser Basic test #1
+#### Air-Leaser Basic Test #1
+
+<p align="justify">
 Drones fly to opposite ends of the runway, hover for 20 seconds, and then request air-space to fly near to the current location of the other drone. The expected outcome is that drones should deadlock and be stuck in hover. Both drones should continue requesting an air lease from the ground service and continue to be denied indefinitely until pilot takes over.
+ </p>
+ 
 - Mission Specification: 
   - [Drone-A JSON Specification](https://github.com/SAREC-Lab/PuDZ/blob/main/mission-specs/mission_spec_T6a.json)
   - [Drone-B JSON Specification](https://github.com/SAREC-Lab/PuDZ/blob/main/mission-specs/mission_spec_T6b.json)
 
-#### Air-leaser test #2.
+#### Air-Leaser Test #2.
+<p align="justify">
 Four drones are lined up South of the runway approximately 15-20 meters apart.  Each one is given a flight plan to take-off, fly south to a waypoint, hover for 20 seconds, and return home.  We expect to see all drones take off sequentially as they request leases, since they are positioned at spots greater than 21 meters.  If there is an airlease error, they will not all take off.  By progressively adapting the air-leaser's spacing plan, different outcomes are observed in terms of which sUAS take off in which order.
-
+</p>
+  
 - Mission Specification: 
   - [Drone-RED](https://github.com/SAREC-Lab/PuDZ/blob/main/mission-specs/mission_spec_T6_RED.json)
   - [Drone-BLUE](https://github.com/SAREC-Lab/PuDZ/blob/main/mission-specs/mission_spec_T6_BLUE.json)
@@ -105,7 +112,7 @@ The air-leaser adapts its layout due to high congestion. We have tested this in 
 <a name="t7"></a>
 - Video
 - Flight Log
-- Mission Specification: [T7 Specification](mission-specs/mission_spec_t7.json)
+- Mission Specification: [T7 Specification](mission-specs/mission_spec_T7.json)
 
 --- 
 
@@ -113,7 +120,7 @@ The air-leaser adapts its layout due to high congestion. We have tested this in 
 <a name="t8"></a>
 - Video
 - Flight Log
-- Mission Specification: [T8 Specification](mission-specs/mission_spec_t8.json)
+- Mission Specification: [T8 Specification](mission-specs/mission_spec_T8.json)
 
 --- 
 
@@ -121,19 +128,21 @@ The air-leaser adapts its layout due to high congestion. We have tested this in 
 <a name="t9"></a>
 - Video
 - Flight Log
-- Mission Specification: [T9 Specification](mission-specs/mission_spec_t9.json)
+- Mission Specification: [T9 Specification](mission-specs/mission_spec_T9.json)
 
 --- 
 
+<a name="t10"></a>
 ### :mag_right: T10: sUAS hits geofence and flies off course at high altitude
 <img align="right" width="200" src="https://github.com/SAREC-Lab/PuDZ/blob/main/images/highflight.png">
-This `test' was accidental. It was the result of several compounding errors and has been officially reported to the NASA sUAS incident service due to the high altitudes (over 400ft AGL). We had set up a geofence, but for some reason the geofence action was re-set to 'no action'. When the sUAS hit the geofence, it transitioned to STABILIZED mode and control was ceded from the onboard autopilot to the RPIC (human pilot). The throttle was very slightly above neutral. Therefore, the sUAS started ascending and flew in the direction of the pervading wind. Retroactively we are developing a monitor to check for excessive altitude and adapt behavior to RTL.
 
-<a name="t10"></a>
+<p align="justify">
+This `test' was accidental. It was the result of several compounding errors and has been officially reported to the NASA sUAS incident service due to the high altitudes (over 400ft AGL). We had set up a geofence, but for some reason the geofence action was re-set to 'no action'. When the sUAS hit the geofence, it transitioned to STABILIZED mode and control was ceded from the onboard autopilot to the RPIC (human pilot). The throttle was very slightly above neutral. Therefore, the sUAS started ascending and flew in the direction of the pervading wind. Retroactively we are developing a monitor to check for excessive altitude and adapt behavior to RTL.
+</p>
 
 - Video 
 - Flight Log [T10-Flight Log](https://logs.px4.io/plot_app?log=7c381b16-a107-4268-9a9c-bfbb3b1575ae)
-- Mission Specification: [T10 Specification](mission-specs/mission_spec_t10.json)
+- Mission Specification: [T10 Specification](mission-specs/mission_spec_T10.json)
 
 ---
 
