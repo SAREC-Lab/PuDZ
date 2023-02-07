@@ -64,11 +64,18 @@ In this test we mimic the adaptation of the EDS due to high winds. We publish a 
 
 #### Air-leaser test #1.
 - Video [T5-Video](https://youtu.be/-BxXdtNNgw0) (Video not exact match for specification)
-- Mission Specification: [[T6-a Specification - DroneA](mission-specs/mission_spec_t6A.json) &nbsp;&nbsp;&nbsp;&nbsp; [T6 Specification DroneB](mission-specs/mission_spec_t6B.json)
+
+#### Air-leaser test #1.
+- Mission Specification: 
+  - [Drone-A](https://github.com/SAREC-Lab/PuDZ/blob/main/mission-specs/mission_spec_T6a.json)
+  - [Drone-B](https://github.com/SAREC-Lab/PuDZ/blob/main/mission-specs/mission_spec_T6b.json)
 
 #### Air-leaser test #2.
-- Mission Specification: [[T6-a Specification - DroneA](https://github.com/SAREC-Lab/PuDZ/blob/main/mission-specs/mission_spec_T6_BLUE.json)
-- 
+- Mission Specification: 
+  - [Drone-RED](https://github.com/SAREC-Lab/PuDZ/blob/main/mission-specs/mission_spec_T6_RED.json)
+  - [Drone-BLUE](https://github.com/SAREC-Lab/PuDZ/blob/main/mission-specs/mission_spec_T6_BLUE.json)
+  - [Drone-GREEN](https://github.com/SAREC-Lab/PuDZ/blob/main/mission-specs/mission_spec_T6_GREEN.json)
+  - [Drone-PURPLE](https://github.com/SAREC-Lab/PuDZ/blob/main/mission-specs/mission_spec_T6_PURPLE.json)
 
 --- 
 
