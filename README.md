@@ -18,6 +18,7 @@ The use of small autonomous Uncrewed Aerial Systems (sUAS) for Emergency Respons
 | [T9](README.md#t9) | Ill-formed mission detected. Mission aborted   | [C](pattern.md#pc)        |SoS Policy Manager  |
 | [T10](README.md#t10) | FAA Part 107 flight regulation violation  |[C](pattern.md#pc)       |Runtime Monitor |
 
+##### Note: For help in interpreting mission specifications please see [this](https://github.com/SAREC-Lab/PuDZ/blob/main/images/SearchAndTrack.png) link.
 ---
 
 ### :mag_right: T1: Mission state transition during normal operations
