@@ -1,6 +1,5 @@
 # PuDZ SoS  
-## ![](https://placehold.co/15x15/f03c15/f03c15.png) Note: we are in process of uploading the correct files!!! 
-We expect to have all files uploaded by Wednesday, February 8th. Please come back in a couple of days. 
+## ![](https://placehold.co/15x15/f03c15/f03c15.png) Note: Upload in progress! Not all files uploaded yet.
 
 
 | Test         | Description     | Pattern | Triggering System | 
