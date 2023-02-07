@@ -36,11 +36,7 @@ The test validates that the sUAS can transition states from 'search' to 'survey'
 - Flight Log: [T2 Field test flight log](https://logs.px4.io/plot_app?log=c10160a1-68fc-4d05-a122-413930471b41)
 - Mission Specification: [T2 Specification](mission-specs/mission_spec_t2.json)
 
-<br>
-
 --- 
-
-<br>
 
 ### :mag_right: T3: sUAS-A detects and sUAS-B tracks person
 <a name="t3"></a>
@@ -52,11 +48,7 @@ In this version of the test, we mimic sUAS-A detecting a person by publishing th
 - Flight Log
 - Mission Specification: [T3 Specification](mission-specs/mission_spec_t3.json)
 
-<br>
-
 --- 
-
-<br>
 
 ### :mag_right: T4: sUAS misses heartbeat from GCS
 <a name="t4"></a>
@@ -64,39 +56,29 @@ In this version of the test, we mimic sUAS-A detecting a person by publishing th
 - Flight Log
 - Mission Specification: [T4 Specification](mission-specs/mission_spec_t4.json)
 
-<br>
-
 --- 
 
-<br>
-
-### :mag_right: T5: Bad weather triggers adaptation of the Environmental Digital Shadow (EDS)
+### :mag_right: T5: EDS and Air-Leaser adapt due to high winds
+In this test we mimic the adaptation of the EDS due to high winds. We publish a high-wind alert, and the air-leaser adapts by increasing the separation distances between sUAS. 
 <a name="t5"></a>
-- Video
-- Flight Log
-- Mission Specification: [T5 Specification](mission-specs/mission_spec_t5.json)
 
-
-<br>
-
---- 
-
-<br>
-
-### :mag_right: T6: Air-leaser layout adaptation
-The air-leaser adapts its layout in several different ways. First, it can adapt between direct routing and grid-based routing. So far we have tested that in a low-fidelity simulator and not with the PX4 physics engine.  We do not report it here.  Second, it can adapt the spacing between sUAS according to weather, satellite availability, and/or sUAS health. We report two different experiments with the air leaser at vary separation distances.  
-<a name="t6"></a>
 #### Air-leaser test #1.
 - Video
 - Flight Log
-- Mission Specification: [T6 Specification - DroneA](mission-specs/mission_spec_t6A.json) &nbsp;&nbsp;&nbsp;&nbsp; [T6 Specification DroneB](mission-specs/mission_spec_t6B.json)
+- Mission Specification: [[T6-a Specification - DroneA](mission-specs/mission_spec_t6A.json) &nbsp;&nbsp;&nbsp;&nbsp; [T6 Specification DroneB](mission-specs/mission_spec_t6B.json)
 
-
-<br>
+#### Air-leaser test #2.
+- Video
+- Flight Log
+- Mission Specification:
 
 --- 
 
-<br>
+### :mag_right: T6: Air-leaser layout adaptation
+The air-leaser adapts its layout due to high congestion. We have tested this in a low-fidelity simulator and not with the PX4 physics engine. 
+<a name="t6"></a>
+
+--- 
 
 ### :mag_right: T7: Compass interference onboard sUAS
 <a name="t7"></a>
