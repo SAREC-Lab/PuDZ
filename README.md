@@ -1,9 +1,20 @@
 # Validating self-adaptation across a sUAS System-of-Systems
 
-<img align="right" width="225" src="https://github.com/SAREC-Lab/PuDZ/blob/main/images/drones.PNG">
+<br>
+
+
+<img align="right" width="255" src="https://github.com/SAREC-Lab/PuDZ/blob/main/images/drones.PNG">
+
+<p align="justify">
 The use of small autonomous Uncrewed Aerial Systems (sUAS) for Emergency Response requires rapid deployments into shared operational environments which we refer to as ``Pop-up Drone Zones'' (PuDZ). PuDZ represents a System of Systems (SoS), in which individual systems provide services such as air traffic control, environmental modeling, and support for sUAS autonomy. Each system needs the ability to configure itself dynamically at the start of the mission, and self-adapt throughout the mission in response to environmental changes, emergent problems, and changes in the overall mission status. Each system is self-managed, using its own local MAPE-K loop, and can, therefore, adapt independently; however, adaptations in one system can have a trickle-over effect to other systems. The tests reported on this page were conducted with four HX-10 drones (shown on the right) and were used to illustrate and validate various cross-system self-adaptation scenarios with physical and/or simulated sUAS. 
+ </p> 
+  
+<br>
 
 ---
+
+<br>
+
 
 | Test         | Description     | Pattern | Triggering System | 
 |:--------------:|-----------|:------------:|------------|
@@ -18,7 +29,11 @@ The use of small autonomous Uncrewed Aerial Systems (sUAS) for Emergency Respons
 | [T9](README.md#t9) | Ill-formed mission detected. Mission aborted   | [C](pattern.md#pc)        |SoS Policy Manager  |
 | [T10](README.md#t10) | FAA Part 107 flight regulation violation  |[C](pattern.md#pc)       |Runtime Monitor |
 
+
 ##### Note: For help in interpreting mission specifications please see [this](https://github.com/SAREC-Lab/PuDZ/blob/main/mission-specs/missions.md) link.
+
+<br>
+
 ---
 
 ### :mag_right: T1: Mission state transition during normal operations
