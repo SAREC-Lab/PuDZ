@@ -145,9 +145,12 @@ Onboard anomaly detection was tested for vibration with the high-fidelity Gazebo
 --- 
 
 ### :mag_right: T8: Human requests extended PuDZ Boundaries
-This tests whether a change in PuDZ boundaries causes routes to be adapted. This functionality is only partially implemented in the current system and additional tests are needed. 
+<img width="400" align="right" src="https://github.com/SAREC-Lab/PuDZ/blob/main/images/DR-GUI.png">
+This tests whether a change in PuDZ boundaries causes routes to be adapted.  The image shows the GUI that is currently used to modify a search region which delimits regional searches. The fully self-adaptive solution is still under development as we currently have not implemented route reconfigurations during flight. The autonomous pilot has been designed to self-adapt routes, but some additional development and test is needed for full validation in the field.
+<BR>
+<BR>
 <a name="t8"></a>
-<img src="https://github.com/SAREC-Lab/PuDZ/blob/main/images/DR-UI.PNG">
+<BR>
 
 --- 
 
