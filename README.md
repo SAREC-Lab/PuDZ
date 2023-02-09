@@ -145,8 +145,9 @@ Onboard anomaly detection was tested for vibration with the high-fidelity Gazebo
 --- 
 
 ### :mag_right: T8: Human requests extended PuDZ Boundaries
-(To do: upload screen shot)
+This tests whether a change in PuDZ boundaries causes routes to be adapted. This functionality is only partially implemented in the current system and additional tests are needed. 
 <a name="t8"></a>
+<img src="https://github.com/SAREC-Lab/PuDZ/blob/main/images/DR-UI.PNG">
 
 --- 
 
