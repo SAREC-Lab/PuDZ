@@ -2,6 +2,7 @@ Temporary note (9/16/2024) Fix soon!
 S1 - S3 are new (from previous section of paper)
 However, T5 was similar to S2 so they are merged.
 T1=S4, T2=S5,... T5 deleted, T6=S8, T7=S9 and so one until the end..
+Now removing S9 (it overlaps too much with S1)
 
 # Validating self-adaptation across a sUAS System-of-Systems
 
